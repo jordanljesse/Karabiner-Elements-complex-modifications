@@ -4,7 +4,6 @@
         {
             "description": "caps_lock + hjkl = VIM-style navigation",
             "manipulators": [
-                // caps_lock + h = left arrow
                 {
                     "type": "basic",
                     "from": {
@@ -16,7 +15,6 @@
                     },
                     "to": [{"key_code": "left_arrow"}]
                 },
-                // caps_lock + j = down arrow
                 {
                     "type": "basic",
                     "from": {
@@ -28,7 +26,6 @@
                     },
                     "to": [{"key_code": "down_arrow"}]
                 },
-                // caps_lock + k = up arrow
                 {
                     "type": "basic",
                     "from": {
@@ -40,7 +37,6 @@
                     },
                     "to": [{"key_code": "up_arrow"}]
                 },
-                // caps_lock + l = right arrow
                 {
                     "type": "basic",
                     "from": {
@@ -52,7 +48,6 @@
                     },
                     "to": [{"key_code": "right_arrow"}]
                 },
-                // caps_lock + semicolon = delete
             	{
                     "type": "basic",
                     "from": {
@@ -64,7 +59,6 @@
                     },
                     "to": [{"key_code": "delete_or_backspace"}]
                 },
-                // caps_lock + quote = forward delete
             	{
                     "type": "basic",
                     "from": {
@@ -76,7 +70,6 @@
                     },
                     "to": [{"key_code": "delete_forward"}]
                 },
-                // caps_lock + e = escape
                 {
                     "type": "basic",
                     "from": {
